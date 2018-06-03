@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="scenepane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="798.0" prefWidth="1065.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simulations.disk_management_File_allocation.File_allocationController">
+<children>
+<Button fx:id="f1" layoutX="133.0" layoutY="211.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="1" textFill="#faf8f8" />
+<Button fx:id="f2" layoutX="262.0" layoutY="211.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="2" textFill="#faf8f8" />
+<Button fx:id="f3" layoutX="403.0" layoutY="211.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="3" textFill="#faf8f8" />
+<Button fx:id="f4" layoutX="541.0" layoutY="211.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="4" textFill="#faf8f8" />
+<Button fx:id="f5" layoutX="677.0" layoutY="211.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="5" textFill="#faf8f8" />
+<Button fx:id="f6" layoutX="820.0" layoutY="211.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="6" textFill="#faf8f8" />
+<Button fx:id="f7" layoutX="967.0" layoutY="211.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="7" textFill="#faf8f8" />
+<Button fx:id="f8" layoutX="133.0" layoutY="289.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="8" textFill="#faf8f8" />
+<Button fx:id="f9" layoutX="262.0" layoutY="289.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="9" textFill="#faf8f8" />
+<Button fx:id="f10" layoutX="402.0" layoutY="289.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="10" textFill="#faf8f8" />
+<Button fx:id="f11" layoutX="541.0" layoutY="289.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="11" textFill="#faf8f8" />
+<Button fx:id="f12" layoutX="677.0" layoutY="289.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="12" textFill="#faf8f8" />
+<Button fx:id="f13" layoutX="820.0" layoutY="289.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="13" textFill="#faf8f8" />
+<Button fx:id="f14" layoutX="967.0" layoutY="289.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="14" textFill="#faf8f8" />
+<Button fx:id="f15" layoutX="135.0" layoutY="364.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="15" textFill="#faf8f8" />
+<Button fx:id="f16" layoutX="259.0" layoutY="364.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="16" textFill="#faf8f8" />
+<Button fx:id="f17" layoutX="403.0" layoutY="364.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="17" textFill="#faf8f8" />
+<Button fx:id="f18" layoutX="541.0" layoutY="364.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="18" textFill="#faf8f8" />
+<Button fx:id="f19" layoutX="674.0" layoutY="364.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="19" textFill="#faf8f8" />
+<Button fx:id="f20" layoutX="820.0" layoutY="364.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="20" textFill="#faf8f8" />
+<Button fx:id="f21" layoutX="967.0" layoutY="364.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="21" textFill="#faf8f8" />
+<Button fx:id="f22" layoutX="135.0" layoutY="441.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="22" textFill="#faf8f8" />
+<Button fx:id="f23" layoutX="259.0" layoutY="441.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="23" textFill="#faf8f8" />
+<Button fx:id="f24" layoutX="403.0" layoutY="441.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="24" textFill="#faf8f8" />
+<Button fx:id="f25" layoutX="541.0" layoutY="441.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="25" textFill="#faf8f8" />
+<Button fx:id="f26" layoutX="674.0" layoutY="441.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="26" textFill="#faf8f8" />
+<Button fx:id="f27" layoutX="820.0" layoutY="441.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="27" textFill="#faf8f8" />
+<Button fx:id="f28" layoutX="967.0" layoutY="441.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="28" textFill="#faf8f8" />
+<Button fx:id="f29" layoutX="135.0" layoutY="522.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="29" textFill="#faf8f8" />
+<Button fx:id="f30" layoutX="259.0" layoutY="522.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="30" textFill="#faf8f8" />
+<Button fx:id="f31" layoutX="403.0" layoutY="522.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="31" textFill="#faf8f8" />
+<Button fx:id="f32" layoutX="541.0" layoutY="522.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="32" textFill="#faf8f8" />
+<Button fx:id="f33" layoutX="677.0" layoutY="522.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="33" textFill="#faf8f8" />
+<Button fx:id="f34" layoutX="820.0" layoutY="522.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="34" textFill="#faf8f8" />
+<Button fx:id="f35" layoutX="967.0" layoutY="522.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="35" textFill="#faf8f8" />
+<Button fx:id="f36" layoutX="135.0" layoutY="597.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="36" textFill="#faf8f8" />
+<Button fx:id="f37" layoutX="262.0" layoutY="597.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="37" textFill="#faf8f8" />
+<Button fx:id="f38" layoutX="402.0" layoutY="597.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="38" textFill="#faf8f8" />
+<Button fx:id="f39" layoutX="541.0" layoutY="597.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="39" textFill="#faf8f8" />
+<Button fx:id="f40" layoutX="677.0" layoutY="597.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="40" textFill="#faf8f8" />
+<Button fx:id="f41" layoutX="820.0" layoutY="597.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="41" textFill="#faf8f8" />
+<Button fx:id="f42" layoutX="967.0" layoutY="597.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="42" textFill="#faf8f8" />
+<Button fx:id="f43" layoutX="135.0" layoutY="679.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="43" textFill="#faf8f8" />
+<Button fx:id="f44" layoutX="259.0" layoutY="679.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="44" textFill="#faf8f8" />
+<Button fx:id="f45" layoutX="402.0" layoutY="679.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="45" textFill="#faf8f8" />
+<Button fx:id="f46" layoutX="547.0" layoutY="679.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="46" textFill="#faf8f8" />
+<Button fx:id="f47" layoutX="677.0" layoutY="679.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="47" textFill="#faf8f8" />
+<Button fx:id="f48" layoutX="820.0" layoutY="675.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="48" textFill="#faf8f8" />
+<Button fx:id="f49" layoutX="967.0" layoutY="675.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="49" textFill="#faf8f8" />
+<Label layoutX="76.0" prefHeight="59.0" prefWidth="383.0" style="-fx-background-color: #000000;" text="      File Allocation" textFill="WHITE">
+         <font>
+            <Font name="Garamond Bold" size="36.0" />
+         </font></Label>
+      <TextField fx:id="t1" layoutX="707.0" layoutY="65.0" stylesheets="@../../styles/styles.css" />
+      <Label layoutX="571.0" layoutY="70.0" stylesheets="@../../styles/styles.css" text="Enter File Size" textFill="BLUE">
+         <font>
+            <Font name="Garamond" size="18.0" />
+         </font></Label>
+      <RadioButton fx:id="r1" layoutX="154.0" layoutY="150.0" mnemonicParsing="false" stylesheets="@../../styles/styles.css" text="Contiguous">
+         <toggleGroup>
+            <ToggleGroup fx:id="rg1" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="r2" layoutX="424.0" layoutY="150.0" mnemonicParsing="false" stylesheets="@../../styles/styles.css" text="Linked" toggleGroup="$rg1" />
+      <RadioButton fx:id="r3" layoutX="648.0" layoutY="150.0" mnemonicParsing="false" stylesheets="@../../styles/styles.css" text="Indexed" toggleGroup="$rg1" />
+      <Label layoutX="147.0" layoutY="70.0" stylesheets="@../../styles/styles.css" text="Enter File Name" textFill="BLUE">
+         <font>
+            <Font name="Garamond" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="t2" layoutX="360.0" layoutY="65.0" stylesheets="@../../styles/styles.css" />
+      <JFXHamburger fx:id="hamburger" alignment="CENTER" layoutX="-2.0" layoutY="-1.0" prefHeight="60.0" prefWidth="83.0" style="-fx-background-color: #000000;" styleClass="jfx-hamburger" stylesheets="@../../styles/styles.css" />
+      <Label alignment="CENTER" contentDisplay="RIGHT" graphicTextGap="5.0" layoutX="867.0" prefHeight="59.0" prefWidth="198.0" style="-fx-background-color: #000000;" text="OS Simulator" textFill="WHITE">
+         <font>
+            <Font name="TakaoPGothic" size="20.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView fill="WHITE" glyphName="LINUX" size="40" wrappingWidth="32.42856979370117" />
+         </graphic>
+      </Label>
+      <Region layoutX="452.0" layoutY="-1.0" prefHeight="60.0" prefWidth="419.0" style="-fx-background-color: #000000;" />
+      <Label layoutX="147.0" layoutY="103.0" stylesheets="@../../styles/styles.css" text="Enter File Name" textFill="BLUE">
+         <font>
+            <Font name="Garamond" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="571.0" layoutY="114.0" stylesheets="@../../styles/styles.css" text="Enter File Size" textFill="BLUE">
+         <font>
+            <Font name="Garamond" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="t3" layoutX="360.0" layoutY="110.0" stylesheets="@../../styles/styles.css" />
+      <TextField fx:id="t4" layoutX="707.0" layoutY="110.0" stylesheets="@../../styles/styles.css" />
+      <JFXButton fx:id="res" buttonType="RAISED" contentDisplay="RIGHT" graphicTextGap="6.0" layoutX="202.0" layoutY="737.0" onAction="#actionHandler" prefHeight="54.0" prefWidth="132.0" style="-fx-background-color: #ffd64d;" stylesheets="@../../styles/styles.css" text="Allocate">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView glyphName="CHEVRON_CIRCLE_RIGHT" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="back" buttonType="RAISED" graphicTextGap="6.0" layoutX="880.0" layoutY="735.0" onAction="#exithandler" prefHeight="58.0" prefWidth="105.0" style="-fx-background-color: #fe0000;" stylesheets="@../../styles/styles.css" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Ubuntu Light" size="20.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView fill="#dfe2db" glyphName="REMOVE" size="25" text="" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="back" buttonType="RAISED" contentDisplay="RIGHT" graphicTextGap="6.0" layoutX="424.0" layoutY="737.0" onAction="#showdetails" prefHeight="54.0" prefWidth="132.0" style="-fx-background-color: #00ff00;" stylesheets="@../../styles/styles.css" text="Details">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView glyphName="CHEVRON_CIRCLE_RIGHT" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="back" buttonType="RAISED" contentDisplay="RIGHT" graphicTextGap="6.0" layoutX="655.0" layoutY="737.0" onAction="#clearall" prefHeight="54.0" prefWidth="132.0" style="-fx-background-color: #0000ff;" stylesheets="@../../styles/styles.css" text="Clear">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView glyphName="CHEVRON_CIRCLE_RIGHT" size="20" />
+         </graphic>
+      </JFXButton>
+</children>
+</AnchorPane>
